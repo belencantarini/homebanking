@@ -15,13 +15,9 @@ public class Transfer {
     @Column(name = "transfer_id")
     private Long id;
 
-    @ManyToOne
-    @JoinColumn(name = "account_id", nullable = false)
-    private Account origin;
+    private Long origin;
 
-    @ManyToOne
-    @JoinColumn(name = "account_id", nullable = false)
-    private Account target;
+    private Long target;
 
     private Date date;
 

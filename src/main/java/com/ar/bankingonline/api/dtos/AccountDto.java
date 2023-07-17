@@ -9,5 +9,5 @@ import java.math.BigDecimal;
 public class AccountDto {
     private Long id;
     private BigDecimal amount;
-    private User owner;
+    private UserDto owner;
 }

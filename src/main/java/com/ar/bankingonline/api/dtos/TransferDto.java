@@ -1,6 +1,5 @@
 package com.ar.bankingonline.api.dtos;
 
-import com.ar.bankingonline.domain.models.Account;
 import lombok.Data;
 
 import java.math.BigDecimal;
@@ -11,9 +10,9 @@ public class TransferDto {
 
     private Long id;
 
-    private Account origin;
+    private Long origin;
 
-    private Account target;
+    private Long target;
 
     private Date date;
 
